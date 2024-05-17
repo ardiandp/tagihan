@@ -20,20 +20,20 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="mutasi.html">Mutasi</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Pricing
+                    Tagihan
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Plan 1</a></li>
-                    <li><a class="dropdown-item" href="#">Plan 2</a></li>
-                    <li><a class="dropdown-item" href="#">Plan 3</a></li>
+                    <li><a class="dropdown-item" href="tagihan/bpjs.html">BPJS</a></li>
+                    <li><a class="dropdown-item" href="tagihan/ipl.html">IPL</a></li>
+                   
                 </ul>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="logout.html">Log Out</a>
             </li>
         </ul>
     </div>

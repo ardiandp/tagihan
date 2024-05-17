@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteRule ^daftar-spahamil\.html$ main.php?page=daftar_spahamil [L]
+RewriteRule ^daftar-pascalahiran\.html$ main.php?page=daftar_lahiran [L]
+RewriteRule ^daftar-slimming\.html$ main.php?page=daftar_slimming [L]
+
+
+RewriteRule ^logout\.html$ main.php?page=logout [L]
+RewriteRule ^index\.html$ login.php [L]
+RewriteRule ^profil\.html$ main.php?page=profil [L]
+RewriteRule ^promo\.html$ main.php?page=promo [L]
+RewriteRule ^faq\.html$ main.php?page=faq [L]
+RewriteRule ^input-tagihan\.html$ main.php?page=input_tagihan [L]
+RewriteRule ^tampil-bayar-tagihan\.html$ main.php?page=tampil_bayar_tagihan [L]
+RewriteRule ^hapus-bayar-tagihan/([0-9]+)\.html$ main.php?page=hapus_bayar_tagihan&id=$1 [L]
